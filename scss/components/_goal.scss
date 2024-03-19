@@ -1,0 +1,45 @@
+.goal {
+    margin-bottom: 5rem;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5rem;
+
+    &__inner {
+        display: flex;
+        align-items: center;
+        gap: 30rem;
+
+        &:nth-child(even){
+            flex-direction: row-reverse;
+            justify-content: start;
+        }
+
+        &:nth-child(odd){
+            justify-content: end;
+        }
+
+        img {
+            border-radius: 2rem;
+        }
+    }
+
+    &__block {
+        width: 60%;
+        padding: 2.5rem 4rem;
+
+        border: 2px solid $accent-color-second;
+        background-color: $accent-color;
+        border-radius: 2rem;
+
+        color: $light-color;
+        text-align: center;
+    }
+
+    &__title {
+        margin-bottom: 2rem;
+
+        font-size: 2rem;
+        text-transform: uppercase;
+    }
+}

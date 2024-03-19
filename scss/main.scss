@@ -1,0 +1,29 @@
+//base
+@import './base/reset';
+@import './base/vars';
+@import './base/fonts';
+@import './base/base';
+
+//components
+@import './components/logo';
+@import './components/titles';
+@import './components/buttons';
+@import './components/hidden-button';
+@import './components/hidden-block';
+@import './components/hidden-appointment';
+@import './components/value';
+@import './components/goal';
+@import './components/story';
+@import './components/popup';
+
+//sections
+@import './sections/header';
+@import './sections/nav';
+@import './sections/preview';
+@import './sections/about';
+@import './sections/service';
+@import './sections/guarantees';
+@import './sections/news';
+@import './sections/reviews';
+@import './sections/contacts';
+@import './sections/footer';

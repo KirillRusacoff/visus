@@ -1,0 +1,15 @@
+body {
+    font-family: TTRoundsNeue, sans-serif;
+    font-size: 1.2rem;
+    color: $dark-color;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 144rem;
+    margin: 0 auto;
+}
+
+.main {
+    background: -webkit-linear-gradient(1deg, #e0f6ff,#d6ebff,#ffffff);/* Chrome 10-25, Safari 5.1-6 */                       background: linear-gradient(1deg, #e0f6ff,#d6ebff,#ffffff);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             
+}

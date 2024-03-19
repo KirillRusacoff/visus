@@ -1,0 +1,31 @@
+.preview {
+    padding: 2rem 0;
+
+    &__wrapper {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    &__slider-slide {
+        position: relative;
+        height: 55vh;
+
+        img {
+            object-fit: cover;
+        }
+
+        h2 {
+            position: absolute;
+            bottom: 2rem;
+            left: 5rem;
+
+            max-width: 50rem;
+
+            font-size: 3.6rem;
+            line-height: 1.5;
+            color: $light-color;
+            text-transform: uppercase;
+            text-shadow: 0 0 10px $dark-color;
+        }
+    }
+}

@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Визус</title>
+    <link rel="stylesheet" href="./libs/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/main.min.css">
+    <script src="./libs/swiper/swiper-bundle.min.js" defer></script>
+    <script src="./js/main.js" defer></script>
+</head>
+<body>
+    <div class="hidden-block">
+        <ul class="hidden-block__middle">
+            <li class="hidden-block__item"><a href="#!">О нас</a></li>
+            <li class="hidden-block__item"><a href="#!">Услуги</a></li>
+            <li class="hidden-block__item"><a href="#!">Сервис и гарантии</a></li>
+            <li class="hidden-block__item"><a href="#!">Новости</a></li>
+            <li class="hidden-block__item"><a href="#!">Отзывы</a></li>
+            <li class="hidden-block__item"><a href="#!">Контакты</a></li>
+            <li class="hidden-block__item"><a href="#!">Записаться на подбор</a></li>
+        </ul>
+    </div>
+    <div class="hidden-appointment">
+        <form action="" class="hidden-appointment__form">
+            <button type="button" class="hidden-appointment__cross">
+                <img src="./img/icons/cross.svg" alt="Крестик для закрытия">
+            </button>
+            <h3 class="hidden-appointment__title">Запись на подбор очков</h3>
+            <input type="text" class="hidden-appointment__input" placeholder="Ваше имя">
+            <input type="tel" class="hidden-appointment__input" placeholder="Номер телефона*" required>
+            <input type="email" class="hidden-appointment__input" placeholder="Ваш email">
+            <input type="submit" class="hidden-appointment__input" value="Записаться">
+        </form>
+    </div>
+    <div class="popup">
+        <div class="popup__middle">
+            <img src="./img/icons/cross.svg" alt="">
+            <div class="popup__video"></div>
+            <div class="popup__desc">
+                <h3>lorem ipsum</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae illo, recusandae animi, veritatis dolorum delectus, repudiandae esse eum fuga possimus ab! Deleniti, qui eveniet distinctio sequi omnis totam incidunt suscipit dolorum ullam dicta iusto culpa temporibus animi placeat quasi modi praesentium ad quibusdam doloremque reprehenderit error adipisci illo sed! Aliquam nisi nihil laudantium ipsum debitis iste ab culpa reprehenderit provident? Dolor maiores aliquam dolorum eum error reiciendis doloremque repellat molestias sunt voluptate, porro natus qui inventore quidem omnis, in doloribus vel. Quo error itaque sunt suscipit id harum consequatur qui. Unde placeat sint neque voluptatem ab debitis laborum temporibus molestiae.
+                </p>
+            </div>
+        </div>
+    </div>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="logo">
+                    <img src="./img/logo.png" alt="Логотип Визус">
+                </div>
+                <div class="header__components">
+                    <div class="header__top">
+                        <button type="button" class="button">Версия для слабовидящих</button>
+                        <button type="button" class="button">Ярославль &rarr;</button>
+                    </div>
+                    <div class="header__bottom">
+                        <div class="header__phone">
+                            <h3>Горячая линия</h3>
+                            <a href="tel:+79995555555">+7(999)555-55-55</a>
+                        </div>
+                        <div class="header__working-hours">
+                            <h3>Время работы</h3>
+                            <p>Пн-Пт - с 9:00 до 18:00</p>
+                            <p>Сб - с 9:00 до 15:00</p>
+                            <p>Вс - выходной</p>
+                        </div>
+                        <div class="header__location">
+                            <h3>Наш адрес</h3>
+                            <p>ул.Залесская д.1А</p>
+                            <p>Ярославль,Ярославская область</p>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="hidden-button">
+                    <span class="hidden-button__middle"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <nav class="nav">
+        <div class="container">
+            <ul class="nav__wrapper">
+                <li class="nav__item"><a href="#about">О нас</a></li>
+                <li class="nav__item"><a href="#service">Услуги</a></li>
+                <li class="nav__item"><a href="#guarantees">Сервис и гарантии</a></li>
+                <li class="nav__item"><a href="#news">Новости</a></li>
+                <li class="nav__item"><a href="#reviews">Отзывы</a></li>
+                <li class="nav__item"><a href="#contacts">Контакты</a></li>
+                <li class="nav__item appointment-button"><button type="button" class="button">Записаться на подбор</button></li>
+            </ul>
+        </div>
+    </nav>
+    <main class="main">
+        <section class="preview">
+            <div class="container">
+                <div class="preview__wrapper">
+                    <div class="swiper preview__slider">
+                        <div class="swiper-wrapper preview__slider-wrapper">
+                            <div class="swiper-slide preview__slider-slide">
+                                <h2>Работаем с очками любой сложности</h2>
+                                <img src="./img/preview/slide-01.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide preview__slider-slide">
+                                <h2>Сеть оптик (в разных областях и городах)</h2>
+                                <img src="./img/preview/slide-02.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide preview__slider-slide">
+                                <h2>Профессиональный подбор очков</h2>
+                                <img src="./img/preview/slide-03.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide preview__slider-slide">
+                                <h2>Изготовление очков у прямо нас</h2>
+                                <img src="./img/preview/slide-04.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="container">
+                <div class="about__wrapper">
+                    <h2 class="title-1">О нас</h2>
+                    <div class="about__desc">
+                        <p style="font-style: italic;font-size: 1.3rem;margin-bottom: 2rem;">
+                            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui in error sint voluptatem id assumenda harum debitis autem, excepturi enim nobis quos illum doloremque. Eligendi magnam, voluptatibus quisquam dicta ea autem, perferendis dolor ut in maiores repellendus corporis architecto nisi facere ipsum sit, illo esse quo dolorum vero quam? Iusto suscipit, tempora eum ea mollitia perferendis, reiciendis ab possimus vitae provident at ullam error nesciunt amet quidem veritatis, recusandae eaque accusantium blanditiis minus consequuntur voluptatibus vel totam quam. Incidunt nulla modi animi fugiat magnam. Magnam dolorem facilis ea sit voluptates recusandae sequi aperiam nam, quidem assumenda doloribus nihil distinctio. Eligendi.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit reiciendis nam voluptate cum optio quasi veniam eum perspiciatis quos cupiditate excepturi est odit sunt nostrum aspernatur quae explicabo repudiandae ratione maiores, aperiam ea atque sed pariatur! Reiciendis, sed sint quia doloremque recusandae obcaecati aut odit asperiores ipsam, iste exercitationem nulla".
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui in error sint voluptatem id assumenda harum debitis autem, excepturi enim nobis quos illum doloremque. Eligendi magnam, voluptatibus quisquam dicta ea autem, perferendis dolor ut in maiores repellendus corporis architecto nisi facere ipsum sit, illo esse quo dolorum vero quam? Iusto suscipit, tempora eum ea mollitia perferendis, reiciendis ab possimus vitae provident at ullam error nesciunt amet quidem veritatis, recusandae eaque accusantium blanditiis minus consequuntur voluptatibus vel totam quam. Incidunt nulla modi animi fugiat magnam. Magnam dolorem facilis ea sit voluptates recusandae sequi aperiam nam, quidem assumenda doloribus nihil distinctio. Eligendi.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit reiciendis nam voluptate cum optio quasi veniam eum perspiciatis quos cupiditate excepturi est odit sunt nostrum aspernatur quae explicabo repudiandae ratione maiores, aperiam ea atque sed pariatur! Reiciendis, sed sint quia doloremque recusandae obcaecati aut odit asperiores ipsam, iste exercitationem nulla. Lorem ipsum dolor sit amet consectetur adipisicing elit!
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui in error sint voluptatem id assumenda harum debitis autem, excepturi enim nobis quos illum doloremque. Eligendi magnam, voluptatibus quisquam dicta ea autem, perferendis dolor ut in maiores repellendus corporis architecto nisi facere ipsum sit, illo esse quo dolorum vero quam? Iusto suscipit, tempora eum ea mollitia perferendis, reiciendis ab possimus vitae provident at ullam error nesciunt amet quidem veritatis, recusandae eaque accusantium blanditiis minus consequuntur voluptatibus vel totam quam. Incidunt nulla modi animi fugiat magnam. Magnam dolorem facilis ea sit voluptates recusandae sequi aperiam nam, quidem assumenda doloribus nihil distinctio. Eligendi.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit reiciendis nam voluptate cum optio quasi veniam eum perspiciatis quos cupiditate excepturi est odit sunt nostrum aspernatur quae explicabo repudiandae ratione maiores, aperiam ea atque sed pariatur! Reiciendis, sed sint quia doloremque recusandae obcaecati aut odit asperiores ipsam, iste exercitationem nulla. Lorem ipsum dolor sit amet consectetur adipisicing elit!
+                        </p>
+                    </div>
+                    <h2 class="title-1">Наши ценности</h2>
+                    <div class="value">
+                        <div class="value__block">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit iure sequi minima atque assumenda enim ea reiciendis ullam quae, blanditiis alias vero quas harum quaerat tempore officiis omnis neque obcaecati!
+                            </p>
+                        </div>
+                        <div class="value__block">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit iure sequi minima atque assumenda enim ea reiciendis ullam quae, blanditiis alias vero quas harum quaerat tempore officiis omnis neque obcaecati!
+                            </p>
+                        </div>
+                        <div class="value__block">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit iure sequi minima atque assumenda enim ea reiciendis ullam quae, blanditiis alias vero quas harum quaerat tempore officiis omnis neque obcaecati!
+                            </p>
+                        </div>
+                        <div class="value__block">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit iure sequi minima atque assumenda enim ea reiciendis ullam quae, blanditiis alias vero quas harum quaerat tempore officiis omnis neque obcaecati!
+                            </p>
+                        </div>
+                        <div class="value__block">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit iure sequi minima atque assumenda enim ea reiciendis ullam quae, blanditiis alias vero quas harum quaerat tempore officiis omnis neque obcaecati!
+                            </p>
+                        </div>
+                        <div class="value__block">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit iure sequi minima atque assumenda enim ea reiciendis ullam quae, blanditiis alias vero quas harum quaerat tempore officiis omnis neque obcaecati!
+                            </p>
+                        </div>
+                    </div>
+                    <h2 class="title-1">Цели</h2>
+                    <div class="goal">
+                        <div class="goal__inner">
+                            <img src="./img/01.jpg" alt="">
+                            <div class="goal__block">
+                                <h3 class="goal__title">Lorem Ipsum</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dolorum temporibus similique molestiae qui non voluptatem voluptates, eligendi veritatis, officia harum nesciunt earum! Expedita quae labore eveniet! Iure, iusto a!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="goal__inner">
+                            <img src="./img/02.jpg" alt="">
+                            <div class="goal__block">
+                                <h3 class="goal__title">Lorem Ipsum</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dolorum temporibus similique molestiae qui non voluptatem voluptates, eligendi veritatis, officia harum nesciunt earum! Expedita quae labore eveniet! Iure, iusto a!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="goal__inner">
+                            <img src="./img/03.jpg" alt="">
+                            <div class="goal__block">
+                                <h3 class="goal__title">Lorem Ipsum</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dolorum temporibus similique molestiae qui non voluptatem voluptates, eligendi veritatis, officia harum nesciunt earum! Expedita quae labore eveniet! Iure, iusto a!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="goal__inner">
+                            <img src="./img/04.jpg" alt="">
+                            <div class="goal__block">
+                                <h3 class="goal__title">Lorem Ipsum</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dolorum temporibus similique molestiae qui non voluptatem voluptates, eligendi veritatis, officia harum nesciunt earum! Expedita quae labore eveniet! Iure, iusto a!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="goal__inner">
+                            <img src="./img/05.jpg" alt="">
+                            <div class="goal__block">
+                                <h3 class="goal__title">Lorem Ipsum</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dolorum temporibus similique molestiae qui non voluptatem voluptates, eligendi veritatis, officia harum nesciunt earum! Expedita quae labore eveniet! Iure, iusto a!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <h2 class="title-1">Наша история</h2>
+                    <div class="story">
+                        <div class="story__block">
+                            <h3 class="story__title">Lorem</h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="story__block">
+                            <h3 class="story__title">Lorem</h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="story__block">
+                            <h3 class="story__title">Lorem</h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="story__block">
+                            <h3 class="story__title">Lorem</h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="story__block">
+                            <h3 class="story__title">Lorem</h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="story__block">
+                            <h3 class="story__title">Lorem</h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="service" id="service">
+            <div class="conatiner">
+                <div class="service__wrapper">
+                    <h2 class="title-1">Наши услуги</h2>
+                    <div class="service__blocks">
+                        <div class="service__block">
+                            <div class="service__desc">
+                                <h3>Подбор очков</h3>
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate repellat optio aliquam non officia perspiciatis, cum eaque iusto possimus sit nihil distinctio consectetur quaerat ducimus voluptatibus delectus iste reprehenderit? Quis!
+                                </p>
+                            </div>
+                            <button type="button" class="service__button">Подробнее</button>
+                        </div>
+                        <div class="service__block">
+                            <div class="service__desc">
+                                <h3>Изготовление очков</h3>
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate repellat optio aliquam non officia perspiciatis, cum eaque iusto possimus sit nihil distinctio consectetur quaerat ducimus voluptatibus delectus iste reprehenderit? Quis!
+                                </p>
+                            </div>
+                            <button type="button" class="service__button">Подробнее</button>
+                        </div>
+                        <div class="service__block">
+                            <div class="service__desc">
+                                <h3>Детская оптика</h3>
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate repellat optio aliquam non officia perspiciatis, cum eaque iusto possimus sit nihil distinctio consectetur quaerat ducimus voluptatibus delectus iste reprehenderit? Quis!
+                                </p>
+                            </div>
+                            <button type="button" class="service__button">Подробнее</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="guarantees" id="guarantees">
+            <div class="container">
+                <h2 class="title-1">Сервис и гарантии</h2>
+                <img src="./img/services.png" alt="">
+                <div class="guarantees__wrapper">
+                    <div class="guarantees__block">
+                        <h3>О ремонте</h3>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, cumque. Est maxime quam iusto repudiandae quo optio aspernatur, voluptatibus pariatur quasi. Deleniti dicta illo iste, doloribus laborum ratione maxime autem!
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa similique ratione neque maxime autem officiis molestias, earum veritatis sit. Eius, voluptatibus delectus. In architecto tempore saepe ex? Ut, architecto natus.
+                        </p>
+                    </div>
+                    <div class="guarantees__block">
+                        <h3>Гарантии</h3>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, cumque. Est maxime quam iusto repudiandae quo optio aspernatur, voluptatibus pariatur quasi. Deleniti dicta illo iste, doloribus laborum ratione maxime autem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta facilis fuga placeat sunt eaque nulla inventore doloribus voluptatem reprehenderit, dignissimos, ut deleniti adipisci iste accusamus totam unde! Sit, nulla possimus.
+                        </p>
+                    </div>
+                    <div class="guarantees__block">
+                        <h3>Изготовление</h3>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, cumque. Est maxime quam iusto repudiandae quo optio aspernatur, voluptatibus pariatur quasi. Deleniti dicta illo iste, doloribus laborum ratione maxime autem!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, a laborum? Ad earum, distinctio quia, asperiores necessitatibus deserunt dolorum illo veritatis quis dolorem ullam, praesentium nemo eveniet vitae itaque exercitationem.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="news" id="news">
+            <div class="container">
+                <h2 class="title-1">Новости и статьи</h2>
+                <div class="news__wrapper">
+                    <div class="news__block">
+                        <div class="news__img">
+                            <img src="./img/001.jpg" alt="">
+                        </div>
+                        <div class="news__desc">
+                            <h3>Lorem</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque repellendus eos fuga tempora consectetur consequatur, voluptatibus nam suscipit cupiditate beatae?
+                            </p>
+                            <button type="button" class="news__button">Подробнее &rarr;</button>
+                        </div>
+                    </div>
+                    <div class="news__block">
+                        <div class="news__img">
+                            <img src="./img/002.jpg" alt="">
+                        </div>
+                        <div class="news__desc">
+                            <h3>Lorem ipsum</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque repellendus eos fuga tempora consectetur consequatur, voluptatibus nam suscipit cupiditate beatae?
+                            </p>
+                            <button type="button" class="news__button">Подробнее &rarr;</button>
+                        </div>
+                    </div>
+                    <div class="news__block">
+                        <div class="news__img">
+                            <img src="./img/003.jpg" alt="">
+                        </div>
+                        <div class="news__desc">
+                            <h3>Lorem</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque repellendus eos fuga tempora consectetur consequatur, voluptatibus nam suscipit cupiditate beatae?
+                            </p>
+                            <button type="button" class="news__button">Подробнее &rarr;</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="reviews" id="reviews">
+            <div class="container">
+                <h2 class="title-1">Отзывы</h2>
+                <div class="reviews__wrapper">
+                    <div class="swiper reviews__slider">
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-wrapper reviews__slider-wrapper">
+                            <div class="swiper-slide reviews__slider-slide">
+                                <img src="./img/rev-01.PNG" alt="">
+                            </div>
+                            <div class="swiper-slide reviews__slider-slide">
+                                <img src="./img/rev-02.PNG" alt="">
+                            </div>
+                            <div class="swiper-slide reviews__slider-slide">
+                                <img src="./img/rev-01.PNG" alt="">
+                            </div>
+                            <div class="swiper-slide reviews__slider-slide">
+                                <img src="./img/rev-02.PNG" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews__buttons">
+                    <button type="button" class="reviews__button">Добавить отзыв</button>
+                </div>
+            </div>
+        </section>
+        <section class="contacts" id="contacts">
+            <div class="container">
+                <h2 class="title-1">Контакты</h2>
+                <div class="contacts__wrapper">
+                    <div class="contacts__content">
+                        <div class="contacts__numbers">
+                            <h3>Телефоны:</h3>
+                            <a href="tel:+79995555555">+7(999)555-55-55</a>
+                            <a href="tel:+79055050505">+7(905)505-05-05</a>
+                            <h3>Электронная почта:</h3>
+                            <a href="mailto:info@visus.ru">info@visus.ru</a>
+                            <div class="contacts__road">
+                                <h3>Как к нам добраться:</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque corporis labore nihil quaerat a. Ducimus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. A minima in illum atque qui placeat obcaecati laboriosam minus temporibus excepturi?</p>
+                            </div>
+                        </div>
+                        <div class="contacts__map">
+                            <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/16/yaroslavl/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Ярославль</a><a href="https://yandex.ru/maps/16/yaroslavl/house/zalesskaya_ulitsa_10/Z0AYfwJhSUwHQFttfXpwd39hZg==/?ll=39.951090%2C57.616322&utm_medium=mapframe&utm_source=maps&z=16.41" style="color:#eee;font-size:12px;position:absolute;top:14px;">Залесская улица, 10 — Яндекс Карты</a><iframe src="https://yandex.ru/map-widget/v1/?ll=39.951090%2C57.616322&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1Nzg5ODgxNRJD0KDQvtGB0YHQuNGPLCDQr9GA0L7RgdC70LDQstC70YwsINCX0LDQu9C10YHRgdC60LDRjyDRg9C70LjRhtCwLCAxMCIKDevNH0IVHXdmQg%2C%2C&z=16.41" width="550" height="350" frameborder="0" allowfullscreen="true" style="position:relative;"></iframe></div>
+                        </div>
+                    </div>
+                    <div class="contacts__forms">
+                        <div class="contacts__buttons">
+                            <button type="button" class="contacts__button">Запрос на обратный звонок</button>
+                            <button type="button" class="contacts__button">Задать вопрос</button>
+                        </div>
+                        <form action="#!" class="contacts__form callback">
+                            <input type="text" name="name" placeholder="Ваше имя">
+                            <input type="tel" name="phone" placeholder="Номер телефона *" required>
+                            <button type="submit">Отправить</button>
+                        </form>
+                        <form action="#!" class="contacts__form question">
+                            <input type="text" name="name" placeholder="Ваше имя">
+                            <input type="tel" name="phone" placeholder="Номер телефона *" required>
+                            <input type="email" name="email" placeholder="Ваш email *" required>
+                            <textarea name="message" cols="30" rows="10" placeholder="Ваш вопрос"></textarea>
+                            <button type="submit">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__copyright">
+                    <span>&copy; Визус, 2024г.</span>
+                </div>
+                <div class="footer__content">
+                    <div>
+                        <span>ИНН: 4591993678</span>
+                        <span>КПП: 045919936</span>
+                    </div>
+                    <span>Юр.адрес: г.Ярославль ул.Залесская д.1а</span>
+                </div>
+                <button type="button" class="footer__button">Найти отделение рядом</button>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

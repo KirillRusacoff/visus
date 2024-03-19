@@ -1,0 +1,57 @@
+.story {
+    margin-bottom: 5rem;
+    margin-top: 10rem;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 5rem;
+
+    &__block {
+        position: relative;
+
+        padding: 5rem;
+
+        border: 1px solid $accent-color;
+        border-radius: 50%;
+        background-color: $accent-color;
+
+        text-align: center;
+        color: $light-color;
+
+        &:nth-child(even) {
+            background-color: $light-color;
+
+            color: $dark-color;
+        }
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translate(-50%, -100%);
+
+            width: 0.5rem;
+            height: 2rem;
+
+            background-color: $accent-color;
+        }
+
+        &::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translate(-50%, -500%);
+
+            width: 256%;
+            height: 0.5rem;
+
+            background-color: $accent-color;
+        }
+
+        &:first-child::after, &:last-child::after {
+            display: none;
+        }
+    }
+}

@@ -1,0 +1,61 @@
+.service {
+    padding: 6rem 0;
+
+    &__blocks {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 4rem;
+    }
+
+    &__block {
+        width: 80%;
+        padding: 8rem 3rem;
+        margin: 0 auto;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        border: 1px solid $dark-color;
+        border-radius: 1rem;
+        background-color: $dark-color;
+        box-shadow: 1px 1px 10px $dark-color;
+
+        color: $light-color;
+    }
+
+    &__desc {
+        max-width: 40rem;
+
+        h3 {
+            margin-bottom: 2rem;
+
+            font-size: 2rem;
+        }
+
+        p {
+            font-size: 1.6rem;
+        }
+    }
+
+    &__button {
+        padding: 2rem;
+
+        background-color: $accent-color;
+        border: 1px solid $accent-color-second;
+
+        font-size: 1.6rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: $light-color;
+
+        transition: all .3s ease-in;
+
+        &:hover {
+            background-color: $light-color;
+
+            color: $accent-color;
+        }
+    }
+
+}

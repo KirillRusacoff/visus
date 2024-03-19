@@ -1,0 +1,66 @@
+.hidden-button {
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+    width: 3rem;
+    height: 2.5rem;
+    margin-right: 2rem;
+
+    &__middle {
+        position: relative;
+
+        width: 3rem;
+        height: 0.5rem;
+
+        background-color: $dark-color;
+        border-radius: .5rem;
+
+        &::after, &::before {
+            content: '';
+            position: absolute;
+            top: -1rem;
+            left: 0;
+
+            width: 3rem;
+            height: 0.5rem;
+
+            background-color: $dark-color;
+            border-radius: .5rem;
+
+            transition: transform .2s ease-in;
+        }
+
+        &::after {
+            top: 1rem;
+        }
+    }
+
+    &--active {
+        z-index: 2;
+    }
+
+    &.hidden-button--active .hidden-button__middle {
+        background-color: transparent;
+
+        &::before, &::after {
+            top: 0;
+
+            transition: transform .2s ease-in;
+        }
+
+        &::before {
+            background-color: $light-color;
+            transform: rotate(45deg);
+        }
+
+        &::after {
+            background-color: $light-color;
+            transform: rotate(-45deg);
+        }
+    }
+
+    @media(max-width:1199px) {
+        display: flex;
+    }
+}
